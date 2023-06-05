@@ -21,7 +21,9 @@ body {
 }
 
 .header h1 .seo {
-    color: #d9dcd6;
+    
+/*                         Standardized color on heading - some letters were mis-colored
+      color: #d9dcd6; */
 }
 
 .header div {
@@ -50,13 +52,20 @@ p {
     font-size: 16px;
 }
 
+/*
+/* Adjusted height so image wiil fit on screen
+*/
+
 .hero {
-    height: 800px;
+    height: 900px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    
+
+
 }
 
 .float-left {
@@ -70,6 +79,7 @@ p {
 }
 
 .content {
+    
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -188,8 +198,11 @@ p {
     font-size: 36px;
 }
 
+/* Adjusted footer to appear on screen
+*/
+
 .footer {
-    padding: 30px;
+   
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
